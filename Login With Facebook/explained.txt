@@ -1,0 +1,24 @@
+ android studio اما بايدك او علطول من  Firebase اول حاجه لازم تربط التطبيق بتاعك بي ال -
+ 
+بالترتيب documentation وتمشي مع ال  developers.facebook.com  تاني شئ هتروح تعمل تطبيق علي موقع -
+
+
+  من التطبيق بتاعك وانت عارف بقا بتجيبه ازاي .. مش كل حاجه هقولها يعني SHA1 اول حاجه هتروح تجيب ال  Key Hashes وعلشان تجيب ال -
+  https://base64.guru/converter/encode/hex وبعد كده هتروح علي الموقع ده Copy بعد ما تجيبه يا عمنا هتاخدهتاخده -
+  developers.facebook.com تحطه في الموقع بتاع  copy وتاخده  Base64 وتاخد الي موجود في  convert Hex وبعد كده تعمل -
+  
+  
+  
+  
+ لازم يكون كده علشان الكود يظبت معاك XML الي انت هتحطه في ال  Button  بس خلي بالك ال 
+  
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btn_login_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        
