@@ -10,6 +10,21 @@
   
   
   
+   Firebase وتحطه في ال  App secret  لكي تجيب ال 
+  Setting => Basic => علي ايدك اليمين فوق
+  
+  
+  
+  هتلاقيه موجود في اعلي التطبيق من فوق App ID لكي تجيب ال 
+  
+  
+  
+   developer facebook هتروح علي التطبيق الي موجود في  client_token لكي تجيب ال
+  Setting => Advanced => Security => Client token
+  
+  
+  
+  
  لازم يكون كده علشان الكود يظبت معاك XML الي انت هتحطه في ال  Button  بس خلي بالك ال 
   
     <com.facebook.login.widget.LoginButton
